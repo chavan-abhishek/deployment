@@ -1,0 +1,24 @@
+// Architecture Flowchart for Farmora Project
+digraph {
+	A [label="Farmer Uploads Plant Image"]
+	B [label="AI/ML Image Detection Model"]
+	C [label="Plant Info Output"]
+	D [label="Water Supply and Soil Guide"]
+	E [label="Crop Rotation Suggestions"]
+	F [label="Govt. Yojnas Info"]
+	G [label="Climate Alert System"]
+	H [label="Market Connection for Selling Produce"]
+	I [label="Connection to Pesticide/Fertilizer Shops"]
+	J [label="Waste Disposal Units/NGOs"]
+	K [label="Recycling and Pollution Control"]
+	A -> B
+	B -> C
+	C -> D
+	C -> E
+	C -> F
+	A -> G
+	A -> H
+	H -> I
+	H -> J
+	J -> K
+}
